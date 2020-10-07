@@ -6,7 +6,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            int[] nums = { 1, 2000000, 3, 4 };
+            int[] nums = { 1, 2, 3, 4 };
             RunningSum.runningSum(nums);
             foreach (var item in nums)
             {
