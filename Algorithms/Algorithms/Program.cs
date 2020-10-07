@@ -32,12 +32,16 @@ namespace Algorithms
             //int K = 2; 
             //Console.WriteLine(LongestOnes.longestOnes(A, K));
 
-            string s = "HOW ARE YOU";
-            var list = PrintVertically.printVertically(s);
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
+            //string s = "HOW ARE YOU";
+            //var list = PrintVertically.printVertically(s);
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            string word1 = "horse", word2 = "ros";
+            var answer = MinDistance.minDistance(word1, word2);
+            Console.WriteLine(answer);
 
             Console.WriteLine("\nPress any key to continue..."); 
             Console.ReadKey();
