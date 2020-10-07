@@ -28,10 +28,16 @@ namespace Algorithms
             //string s = "abcabc";
             //Console.WriteLine(Substrings.numberOfSubstrings(s));
 
-            int[] A = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
-            int K = 2;
+            //int[] A = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
+            //int K = 2; 
+            //Console.WriteLine(LongestOnes.longestOnes(A, K));
 
-            Console.WriteLine(LongestOnes.longestOnes(A, K));
+            string s = "HOW ARE YOU";
+            var list = PrintVertically.printVertically(s);
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.WriteLine("\nPress any key to continue..."); 
             Console.ReadKey();
