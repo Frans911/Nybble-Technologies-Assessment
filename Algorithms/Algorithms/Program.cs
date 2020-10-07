@@ -25,8 +25,13 @@ namespace Algorithms
             //var answer = JewelsInStones.numJewelsInStones(J, S);
             //Console.WriteLine(answer);
 
-            string s = "abcabc";
-            Console.WriteLine(Substrings.numberOfSubstrings(s));
+            //string s = "abcabc";
+            //Console.WriteLine(Substrings.numberOfSubstrings(s));
+
+            int[] A = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
+            int K = 2;
+
+            Console.WriteLine(LongestOnes.longestOnes(A, K));
 
             Console.WriteLine("\nPress any key to continue..."); 
             Console.ReadKey();
