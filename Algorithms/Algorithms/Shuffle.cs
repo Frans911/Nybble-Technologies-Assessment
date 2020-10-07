@@ -42,6 +42,10 @@ namespace Algorithms
                     }
                 }
             }
+            else
+            {
+                Console.WriteLine("Your n value must be greater than 1  and less than or equals 500 and your numbers must be twice the value of n...");
+            }
             return numbers;
         }
     }

@@ -14,12 +14,16 @@ namespace Algorithms
             //}
 
             int[] nums = { 1, 1, 2, 2 };
-            int n = 2;
+            int n = 7;
             Shuffle.shuffle(nums, n);
             foreach (var item in nums)
             {
                 Console.Write("{0},", item);
             }
+
+            //string J = "aA", S = "aAAbbbb";
+            //var answer = JewelsInStones.numJewelsInStones(J, S);
+            //Console.WriteLine(answer);
 
             Console.WriteLine("\nPress any key to continue..."); 
             Console.ReadKey();
