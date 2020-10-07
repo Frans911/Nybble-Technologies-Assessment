@@ -22,7 +22,7 @@ namespace Algorithms
                     }
                     else
                     {
-                        Console.WriteLine("Your values must range from 1 to 1000");
+                        Console.WriteLine("Your values must range from 1 to 1000...");
                         break;
                     }
                 }
